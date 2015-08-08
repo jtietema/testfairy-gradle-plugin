@@ -70,8 +70,7 @@
 				$out[] = $line;
 
 				if (strpos($line, "repositories {") !== FALSE) {
-					//$out[] = "        maven { url 'https://www.testfairy.com/maven' }";
-					$out[] = "        maven { url 'file://" . $this->_projectDir . "/repo' }";
+					$out[] = "        maven { url 'https://www.testfairy.com/maven' }";
 				}
 
 				if (strpos($line, "dependencies {") !== FALSE) {
@@ -138,7 +137,8 @@
 			$TEST_DIR="/tmp/.gradle-test";
 			system("rm -rf $TEST_DIR");
 			@mkdir($TEST_DIR);
-			exec("$android create project -v $plugin -n GradleTest -t android-8 -p $TEST_DIR -g -k com.testfairy.tests.gradle -a MainActivity", $output);
+			$cmd = "$android create project -v $plugin -n GradleTest -t android-15 -p $TEST_DIR -g -k com.testfairy.tests.gradle -a MainActivity";
+			exec($cmd, $output);
 
 			// create a certificate for this
 			$time = time();
@@ -187,7 +187,7 @@
 			$this->assertZipAligned("${TEST_DIR}/signed.apk");
 		}
 
-		// Gradle Wrapper 1.10
+				// Gradle Wrapper 1.10
                 public function testGradleWrapper_1_10_AndroidPlugin_0_10_0() { }
                 public function testGradleWrapper_1_10_AndroidPlugin_0_10_1() { }
                 public function testGradleWrapper_1_10_AndroidPlugin_0_10_2() { }
@@ -236,5 +236,20 @@
                 public function testGradleWrapper_2_2_AndroidPlugin_0_14_4() { }
                 public function testGradleWrapper_2_2_AndroidPlugin_1_0_0() { }
                 public function testGradleWrapper_2_2_AndroidPlugin_1_0_1() { }
+                public function testGradleWrapper_2_2_AndroidPlugin_1_3_0() { }
+
+				// Gradle Wrapper 2.3
+                public function testGradleWrapper_2_3_AndroidPlugin_1_0_0() { }
+                public function testGradleWrapper_2_3_AndroidPlugin_1_0_1() { }
+                public function testGradleWrapper_2_3_AndroidPlugin_1_1_3() { }
+                public function testGradleWrapper_2_3_AndroidPlugin_1_3_0() { }
+
+                // Gradle Wrapper 2.4
+				public function testGradleWrapper_2_4_AndroidPlugin_1_0_0() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_3_0() { }
+
+
 	}
 ?>
