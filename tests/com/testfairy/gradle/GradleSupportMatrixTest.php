@@ -188,68 +188,105 @@
 		}
 
 				// Gradle Wrapper 1.10
-                public function testGradleWrapper_1_10_AndroidPlugin_0_10_0() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_10_1() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_10_2() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_10_4() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_11_0() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_12_0() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_12_1() { }
-                public function testGradleWrapper_1_10_AndroidPlugin_0_12_2() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_10_0() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_10_1() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_10_2() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_10_4() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_11_0() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_12_0() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_12_1() { }
+				public function testGradleWrapper_1_10_AndroidPlugin_0_12_2() { }
 
-                // Gradle Wrapper 1.11
-                public function testGradleWrapper_1_11_AndroidPlugin_0_10_0() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_10_1() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_10_2() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_10_4() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_11_0() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_12_0() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_12_1() { }
-                public function testGradleWrapper_1_11_AndroidPlugin_0_12_2() { }
+				// Gradle Wrapper 1.11
+				public function testGradleWrapper_1_11_AndroidPlugin_0_10_0() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_10_1() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_10_2() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_10_4() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_11_0() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_12_0() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_12_1() { }
+				public function testGradleWrapper_1_11_AndroidPlugin_0_12_2() { }
 
-                // Gradle Wrapper 1.12
-                public function testGradleWrapper_1_12_AndroidPlugin_0_10_0() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_10_1() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_10_2() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_10_4() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_11_0() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_12_0() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_12_1() { }
-                public function testGradleWrapper_1_12_AndroidPlugin_0_12_2() { }
+				// Gradle Wrapper 1.12
+				public function testGradleWrapper_1_12_AndroidPlugin_0_10_0() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_10_1() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_10_2() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_10_4() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_11_0() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_12_0() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_12_1() { }
+				public function testGradleWrapper_1_12_AndroidPlugin_0_12_2() { }
 
-                // Gradle Wrapper 2.1
-                public function testGradleWrapper_2_1_AndroidPlugin_0_13_0() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_13_1() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_13_2() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_13_3() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_14_0() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_14_1() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_14_2() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_14_3() { }
-                public function testGradleWrapper_2_1_AndroidPlugin_0_14_4() { }
+				// Gradle Wrapper 2.1
+				public function testGradleWrapper_2_1_AndroidPlugin_0_13_0() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_13_1() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_13_2() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_13_3() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_14_0() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_14_1() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_14_2() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_14_3() { }
+				public function testGradleWrapper_2_1_AndroidPlugin_0_14_4() { }
 
-                // Gradle Wrapper 2.2
-                public function testGradleWrapper_2_2_AndroidPlugin_0_14_0() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_0_14_1() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_0_14_2() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_0_14_3() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_0_14_4() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_1_0_0() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_1_0_1() { }
-                public function testGradleWrapper_2_2_AndroidPlugin_1_3_0() { }
+				// Gradle Wrapper 2.2
+				public function testGradleWrapper_2_2_AndroidPlugin_0_14_0() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_0_14_1() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_0_14_2() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_0_14_3() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_0_14_4() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_0_0() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_1_0() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_1_2() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_2_0() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_2_1() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_2_2() { }
+				public function testGradleWrapper_2_2_AndroidPlugin_1_3_0() { }
 
 				// Gradle Wrapper 2.3
-                public function testGradleWrapper_2_3_AndroidPlugin_1_0_0() { }
-                public function testGradleWrapper_2_3_AndroidPlugin_1_0_1() { }
-                public function testGradleWrapper_2_3_AndroidPlugin_1_1_3() { }
-                public function testGradleWrapper_2_3_AndroidPlugin_1_3_0() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_0_0() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_1_0() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_1_2() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_2_0() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_2_1() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_2_2() { }
+				public function testGradleWrapper_2_3_AndroidPlugin_1_3_0() { }
 
-                // Gradle Wrapper 2.4
+				// Gradle Wrapper 2.4
 				public function testGradleWrapper_2_4_AndroidPlugin_1_0_0() { }
 				public function testGradleWrapper_2_4_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_1_0() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_1_2() { }
 				public function testGradleWrapper_2_4_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_2_0() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_2_1() { }
+				public function testGradleWrapper_2_4_AndroidPlugin_1_2_2() { }
 				public function testGradleWrapper_2_4_AndroidPlugin_1_3_0() { }
 
+				// Gradle Wrapper 2.5
+				public function testGradleWrapper_2_5_AndroidPlugin_1_0_0() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_1_0() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_1_2() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_2_0() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_2_1() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_2_2() { }
+				public function testGradleWrapper_2_5_AndroidPlugin_1_3_0() { }
+
+				// Gradle Wrapper 2.4
+				public function testGradleWrapper_2_6_AndroidPlugin_1_0_0() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_0_1() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_1_0() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_1_2() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_1_3() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_2_0() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_2_1() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_2_2() { }
+				public function testGradleWrapper_2_6_AndroidPlugin_1_3_0() { }
 
 	}
 ?>
